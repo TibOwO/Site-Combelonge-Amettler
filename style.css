@@ -17,10 +17,14 @@ main {
   justify-content: space-around;
 }
 
-.samsung,
-.iphone {
-  display: flexbox;
+main .samsung, main .iphone {
+  width: 25%;
+}
 
+iframe {
+  width: 100%;
+  border: none;
+  height: 243px;
 }
 
 h1.titre {
@@ -79,7 +83,7 @@ body {
 
 .navbar {
   display: flex;
-  position: relative;
+  position: sticky;
   justify-content: space-between;
   align-items: center;
   background-color: #333;
@@ -163,7 +167,15 @@ width: 30px;}
 
 
 @media (max-width: 1200px) {
-
+  iframe {
+  width: 100%;
+}
+  
+  main .samsung, main .iphone {
+  width: 100%;
+    
+}
+  
   .iphone {
     display: block;
   }
@@ -179,7 +191,12 @@ width: 30px;}
   .logoiphone {
     margin-top: 50px;
     height: 150px;
-  }
+ }
+  iframe {
+  width: 100%;
+  border: none;
+  height: 243px;
+}
 }
 
 

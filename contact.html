@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="compare.ico" />
+  <title>Contact</title>
+  <html lang="fr">
+
+  </html>
+</head>
+
+<header>
+  <div class="bandeau">
+    <p class="titre">Comparo</p>
+    <p>
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+    </p>
+
+  </div>
+  <nav class="navbar">
+    <div class="navbar-links">
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="quiSommeNous.html">Qui sommes nous</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<h1>Nous Contacter</h1>
+<p>Vous voulez nous contacter pour nous faire part d'une remarque ou d'une amélioration ?</p>
+<p>Vous pouvez le faire via ce formulaire que vous pourrez remplir selon le type votre requete</p>
+<p>Vous pourrez aussi nous contacter via ce numéro : xx xx xx xx xx</p>
+<p>Ou bien par mail en l'envoyant à : XXX@gmail.com </p>
+<form action="mailto:sitecomparatifsamsungapple@gmail.com" method="post">
+
+  <div><label for="lastname">Nom :</label> <input id="nom" name="subscriber_last_name" type="text"> </div>
+
+  <div><label for="firstname">Prénom :</label> <input id="prenom" name="subscriber_first_name" type="text"> </div>
+
+  <fieldset>
+    <legend>Quel est le type de commentaire ?</legend>
+
+    <div><input id="Critiques" name="cluster" type="checkbox" value="articles"> <label for="articles">Critique
+        (contructive)</label> </div>
+
+    <div><input id="Probleme" name="cluster" type="checkbox" value="discount"> <label
+        for="discount">Réclamations</label> </div>
+
+    <div><input id="Autres" name="cluster" type="checkbox" value="newproducts"> <label for="newproducts">Autres</label>
+    </div>
+
+  </fieldset>
+  <textarea id="story" name="story" rows="20" cols=100> </textarea>
+  <br><br>
+  <button class="envoyerCom" type="submit">Envoyer le commentaire</button>
+</form>
+
+
+<script src="script.js"></script>
+</body>
+<script src=" script.js"></script>
+
+</html>

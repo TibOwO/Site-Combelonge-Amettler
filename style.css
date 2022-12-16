@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400&display=swap');
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0px auto;
+  /* background-image: url(images/5.jpg); */
+  background: #c5a5a5;
+}
+
+main {
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.samsung,
+.iphone {
+  display: flexbox;
+
+}
+
+h1.titre {
+  color: red;
+}
+
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation ul li {
+  list-style-type: none;
+}
+
+.logoiphone {  
+  position: relative;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+   object-fit: contain
+}
+
+.logosamsung
+{
+  position: relative;
+  height: 113px;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  object-fit:contain
+  
+}
+
+.videosamsung,
+.videoiphone {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: rgb(0, 0, 0);
+  margin-top: 0px;
+}
+
+.navbar-links {
+  height: 100%;
+}
+
+.button {
+  background-color: #333;
+}
+
+.titre {
+  color: #c5a5a5;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+  color: #c5a5a5;
+  padding: 1rem;
+}
+
+.navbar-links li:hover {
+  background-color: #555;
+}
+.bandeau {
+  background-color: #555;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 5px;
+}
+
+.toggle-button {
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+height: 100%;
+width: 30px;}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+}
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links ul li {
+    text-align: center;
+  }
+
+  .navbar-links ul li a {
+    padding: .5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+
+@media (max-width: 1200px) {
+
+  .iphone {
+    display: block;
+  }
+
+  main {
+    display: block;
+  }
+
+  .logosamsung {
+    height: 50px;
+  }
+
+  .logoiphone {
+    margin-top: 50px;
+    height: 150px;
+  }
+}
+
+
+form {
+  margin-top: 50px;
+}
+
+
+
+
+textarea {
+  border-radius: 20px;
+}
+
+
+
+
+.envoyerCom {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+}
+
+
+.bar {
+  background-color: #c5a5a5;
+  height: 0px;
+}
+

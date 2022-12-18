@@ -2,13 +2,11 @@
 
 html,
 body {
-  height: 100%;
-  width: 100%;
   font-family: 'Poppins', sans-serif;
   text-align: center;
   margin: 0px auto;
   /* background-image: url(images/5.jpg); */
-  background: #c5a5a5;
+background: linear-gradient(rgba(82, 243, 255, 0.921), rgb(255, 224, 132));
 }
 
 main {

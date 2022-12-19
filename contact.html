@@ -1,20 +1,23 @@
-<html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="styleJour.css" rel="stylesheet" type="text/css" id="mycss">
   <link rel="icon" href="./images/compare.ico">
   <title>Contact</title>
   <html lang="fr">
 
-  </html>
 </head>
 
 <header>
   <div class="bandeau">
     <p class="titre">Comparo</p>
+    <div class="containerSwitch">
+      <label >
+        <input class="switch" onchange="switchStyle()" type="checkbox">
+        <div class="slider round"></div>
+      </label>
+    </div>
     <p>
       <a href="#" class="toggle-button">
         <span class="bar"></span>
@@ -22,7 +25,6 @@
         <span class="bar"></span>
       </a>
     </p>
-
   </div>
   <nav class="navbar">
     <div class="navbar-links">
@@ -42,9 +44,15 @@
 <p>Ou bien par mail en l'envoyant à : XXX@gmail.com </p>
 <form action="mailto:sitecomparatifsamsungapple@gmail.com" method="post">
 
-  <div><label for="lastname">Nom :</label> <input id="nom" name="subscriber_last_name" type="text"> </div>
+  <div>
+    <label for="lastname">Nom :</label>
+      <input id="nom" name="subscriber_last_name" type="text"> 
+  </div>
 
-  <div><label for="firstname">Prénom :</label> <input id="prenom" name="subscriber_first_name" type="text"> </div>
+  <div>
+    <label class="ident" for="firstname">Prénom :
+      </label> <input id="prenom" name="subscriber_first_name" type="text"> 
+  </div>
 
   <fieldset>
     <legend>Quel est le type de commentaire ?</legend>

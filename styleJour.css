@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,400&display=swap');
+
+html,
+body {
+  background: linear-gradient(rgb(82, 243, 255, 0.921), rgb(255, 224, 132));
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0px auto;
+
+}
+main {
+  background-attachment: fixed;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+}
+
+main .samsung, main .iphone {
+  width: 25%;
+}
+
+iframe {
+  width: 100%;
+  border: none;
+  height: 243px;
+  border-radius: 10px;
+}
+
+h1.titre {
+  color: red;
+}
+
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation ul li {
+  list-style-type: none;
+}
+
+.logoiphone {
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  object-fit: contain;
+  filter: drop-shadow(10px 5px 4px #3d3d3d);
+}
+
+.logosamsung
+{
+  height: 113px;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  object-fit:contain;
+  filter: drop-shadow(10px 5px 4px #3d3d3d);
+  
+}
+.videosamsung,
+.videoiphone {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+
+}
+
+
+* {
+  box-sizing: border-box;
+}
+iframe:hover{
+filter: drop-shadow(20px 15px 4px #3d3d3d);
+transition: 0.4s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  position: sticky;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: rgb(0, 0, 0);
+  margin-top: 0px;
+}
+
+.navbar-links {
+  height: 100%;
+}
+
+.button {
+  background-color: #333;
+}
+
+.titre {
+  color: #c5a5a5;
+}
+
+.navbar-links ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+.navbar-links li a {
+  display: block;
+  text-decoration: none;
+  color: #c5a5a5;
+  padding: 1rem;
+}
+
+.navbar-links li:hover {
+  background-color: #555;
+  transition: 0.5s;
+}
+.bandeau {
+  position: sticky;
+  background-color: #555;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 5px;
+  margin-top: 0;
+}
+
+.toggle-button {
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+height: 100%;
+width: 30px;}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+}
+
+  .navbar-links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links ul li {
+    text-align: center;
+  }
+
+  .navbar-links ul li a {
+    padding: .5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+
+@media (max-width: 1200px) {
+  iframe {
+  width: 100%;
+}
+  
+  main .samsung, main .iphone {
+  width: 100%;
+    
+}
+  
+  .iphone {
+    display: block;
+  }
+
+  main {
+    display: block;
+  }
+
+  .logoiphone {
+    margin-top: 50px;
+    height: 150px;
+ }
+  iframe {
+  width: 100%;
+  border: none;
+  height: 243px;
+}
+}
+
+
+form {
+  margin-top: 50px;
+}
+
+
+
+
+textarea {
+  border-radius: 20px;
+}
+
+
+
+
+.envoyerCom {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10%;
+}
+
+
+.bar {
+  background-color: #c5a5a5;
+  height: 0px;
+}
+
+
+
+.containerSwitch{
+  margin-top: 15px;
+}
+
+
+.switch{
+  width: 20px;
+  height: 40px
+}
+
+.switch:hover{
+  color: red;
+}
